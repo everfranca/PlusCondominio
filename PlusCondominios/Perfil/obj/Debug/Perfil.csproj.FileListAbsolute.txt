@@ -1,0 +1,5 @@
+C:\PlusCondominios\Perfil\obj\Debug\Perfil.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\App.Dlls\Perfil.dll
+C:\PlusCondominios\App.Dlls\Perfil.pdb
+C:\PlusCondominios\Perfil\obj\Debug\Perfil.dll
+C:\PlusCondominios\Perfil\obj\Debug\Perfil.pdb

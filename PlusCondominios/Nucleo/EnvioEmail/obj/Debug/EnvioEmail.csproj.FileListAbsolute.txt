@@ -1,0 +1,5 @@
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\bin\Debug\EnvioEmail.dll
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\bin\Debug\EnvioEmail.pdb
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.csprojResolveAssemblyReference.cache
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.dll
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.pdb

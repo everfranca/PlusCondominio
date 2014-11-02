@@ -1,0 +1,5 @@
+C:\PlusCondominios\TipoAgendamento\obj\Debug\TipoAgendamento.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\App.Dlls\TipoAgendamento.dll
+C:\PlusCondominios\App.Dlls\TipoAgendamento.pdb
+C:\PlusCondominios\TipoAgendamento\obj\Debug\TipoAgendamento.dll
+C:\PlusCondominios\TipoAgendamento\obj\Debug\TipoAgendamento.pdb

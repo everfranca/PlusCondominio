@@ -1,0 +1,5 @@
+C:\PlusCondominios\App.Dlls\AcessoVisitante.dll
+C:\PlusCondominios\App.Dlls\AcessoVisitante.pdb
+C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.dll
+C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.pdb

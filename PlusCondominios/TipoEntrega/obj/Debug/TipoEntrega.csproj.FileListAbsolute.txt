@@ -1,0 +1,5 @@
+C:\PlusCondominios\TipoEntrega\obj\Debug\TipoEntrega.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\App.Dlls\TipoEntrega.dll
+C:\PlusCondominios\App.Dlls\TipoEntrega.pdb
+C:\PlusCondominios\TipoEntrega\obj\Debug\TipoEntrega.dll
+C:\PlusCondominios\TipoEntrega\obj\Debug\TipoEntrega.pdb

@@ -1,0 +1,5 @@
+C:\PlusCondominios\App.Dlls\AcessoProfissional.dll
+C:\PlusCondominios\App.Dlls\AcessoProfissional.pdb
+C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.dll
+C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.pdb

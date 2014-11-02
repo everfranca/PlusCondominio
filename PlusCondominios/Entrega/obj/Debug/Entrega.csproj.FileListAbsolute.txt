@@ -1,0 +1,5 @@
+C:\PlusCondominios\App.Dlls\Entrega.dll
+C:\PlusCondominios\App.Dlls\Entrega.pdb
+C:\PlusCondominios\Entrega\obj\Debug\Entrega.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\Entrega\obj\Debug\Entrega.dll
+C:\PlusCondominios\Entrega\obj\Debug\Entrega.pdb

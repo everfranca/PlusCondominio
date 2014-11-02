@@ -1,0 +1,5 @@
+C:\PlusCondominios\App.Dlls\ProprietarioVeiculo.dll
+C:\PlusCondominios\App.Dlls\ProprietarioVeiculo.pdb
+C:\PlusCondominios\ProprietarioVeiculo\obj\Debug\ProprietarioVeiculo.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\ProprietarioVeiculo\obj\Debug\ProprietarioVeiculo.dll
+C:\PlusCondominios\ProprietarioVeiculo\obj\Debug\ProprietarioVeiculo.pdb

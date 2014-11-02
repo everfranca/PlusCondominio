@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C24B3D7B-1D60-4883-BE53-5E84F00D0AD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlusCondominiosPrototipo</RootNamespace>
+    <AssemblyName>PlusCondominiosPrototipo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMoradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMoradores.Designer.cs">
+      <DependentUpon>FrmMoradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProfissionais.Designer.cs">
+      <DependentUpon>FrmProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisitantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisitantes.Designer.cs">
+      <DependentUpon>FrmVisitantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisitantesCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisitantesCadastro.Designer.cs">
+      <DependentUpon>FrmVisitantesCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMoradores.resx">
+      <DependentUpon>FrmMoradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProfissionais.resx">
+      <DependentUpon>FrmProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisitantes.resx">
+      <DependentUpon>FrmVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisitantesCadastro.resx">
+      <DependentUpon>FrmVisitantesCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginRed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\moradoes2.png" />
+    <Content Include="Resources\moradores.png" />
+    <None Include="Resources\usuario.png" />
+    <None Include="Resources\visitantes5.png" />
+    <None Include="Resources\visitantes4.png" />
+    <None Include="Resources\visitantes3.png" />
+    <None Include="Resources\profissionais1.png" />
+    <None Include="Resources\moradores1.png" />
+    <Content Include="Resources\profissionais.png" />
+    <Content Include="Resources\profissionais2.png" />
+    <Content Include="Resources\visitantes.png" />
+    <Content Include="Resources\visitantes2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

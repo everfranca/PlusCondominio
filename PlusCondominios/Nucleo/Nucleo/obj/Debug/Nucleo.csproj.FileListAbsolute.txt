@@ -1,0 +1,18 @@
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo.Dlls\Nucleo.dll.config
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo.Dlls\Nucleo.dll
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo.Dlls\Nucleo.pdb
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo\obj\Debug\Nucleo.csprojResolveAssemblyReference.cache
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo\obj\Debug\Nucleo.dll
+C:\Users\everton.franca\Desktop\Nucleo\Nucleo\obj\Debug\Nucleo.pdb
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo.Dlls\Nucleo.dll.config
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo.Dlls\Nucleo.dll
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo.Dlls\Nucleo.pdb
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo\obj\Debug\Nucleo.csprojResolveAssemblyReference.cache
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo\obj\Debug\Nucleo.dll
+\\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\Nucleo\obj\Debug\Nucleo.pdb
+C:\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.dll.config
+C:\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.dll
+C:\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.pdb
+C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.dll
+C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.pdb

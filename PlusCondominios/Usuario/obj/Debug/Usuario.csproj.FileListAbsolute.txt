@@ -1,0 +1,5 @@
+C:\PlusCondominios\Usuario\obj\Debug\Usuario.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\App.Dlls\Usuario.dll
+C:\PlusCondominios\App.Dlls\Usuario.pdb
+C:\PlusCondominios\Usuario\obj\Debug\Usuario.dll
+C:\PlusCondominios\Usuario\obj\Debug\Usuario.pdb

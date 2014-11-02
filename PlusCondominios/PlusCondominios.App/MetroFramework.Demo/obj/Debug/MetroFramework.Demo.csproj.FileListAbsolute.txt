@@ -1,0 +1,86 @@
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe.config
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.pdb
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.dll
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.dll
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.pdb
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.pdb
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csprojResolveAssemblyReference.cache
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.MainForm.resources
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.Properties.Resources.resources
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.TaskWindowControl.resources
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csproj.GenerateResource.Cache
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.exe
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe.config
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.dll
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\bin\Debug\MetroFramework.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csprojResolveAssemblyReference.cache
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmApartamentos.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmBase.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmLogin.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMenu.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMoradores.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmProfissionais.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmVisitantes.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.MainForm.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.Properties.Resources.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.TaskWindowControl.resources
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csproj.GenerateResource.Cache
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\RdlCompile.cache
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\RdlCompile.compiled
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.exe
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe.config
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.exe
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.dll
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csprojResolveAssemblyReference.cache
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmApartamentos.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmBase.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmLogin.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMenu.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMoradores.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmProfissionais.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmVisitantes.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.MainForm.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.Properties.Resources.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.TaskWindowControl.resources
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csproj.GenerateResource.Cache
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\RdlCompile.cache
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Demo\obj\Debug\RdlCompile.compiled
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe.config
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.dll
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.dll
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.Fonts.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\bin\Debug\MetroFramework.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csprojResolveAssemblyReference.cache
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmApartamentos.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmBase.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmLogin.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMenu.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmMoradores.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmProfissionais.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.FrmVisitantes.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.MainForm.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.Properties.Resources.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.TaskWindowControl.resources
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.csproj.GenerateResource.Cache
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\RdlCompile.cache
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\RdlCompile.compiled
+D:\Projetos\Projeto Condomínio\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.exe
+C:\Users\Éverton\Desktop\PlusCondominios\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\bin\Debug\MetroFramework.Demo.exe.config
+C:\Users\Éverton\Desktop\PlusCondominios\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.exe
+C:\Users\Éverton\Desktop\PlusCondominios\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\obj\Debug\MetroFramework.Demo.pdb

@@ -1,0 +1,5 @@
+C:\PlusCondominios\App.Dlls\ProprietarioTelefone.dll
+C:\PlusCondominios\App.Dlls\ProprietarioTelefone.pdb
+C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.dll
+C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.pdb

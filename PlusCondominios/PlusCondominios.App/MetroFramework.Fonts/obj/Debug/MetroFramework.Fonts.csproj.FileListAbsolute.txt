@@ -1,0 +1,28 @@
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+\\rao_ca_serv_01\redirected$\andrel.oliveira\Desktop\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\André\winforms-modernui-master\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+C:\SEBCOC\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb

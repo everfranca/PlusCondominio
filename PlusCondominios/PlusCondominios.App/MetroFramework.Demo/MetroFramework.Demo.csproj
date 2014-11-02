@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF988819-4618-4852-9506-C1D06D04F6B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetroFramework.Demo</RootNamespace>
+    <AssemblyName>MetroFramework.Demo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmApartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmApartamentos.Designer.cs">
+      <DependentUpon>FrmApartamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMoradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMoradores.Designer.cs">
+      <DependentUpon>FrmMoradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProfissionais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProfissionais.Designer.cs">
+      <DependentUpon>FrmProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisitantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisitantes.Designer.cs">
+      <DependentUpon>FrmVisitantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProfissionalInfo.cs" />
+    <Compile Include="Model\VisitanteInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskWindowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskWindowControl.Designer.cs">
+      <DependentUpon>TaskWindowControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmApartamentos.resx">
+      <DependentUpon>FrmApartamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMoradores.resx">
+      <DependentUpon>FrmMoradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProfissionais.resx">
+      <DependentUpon>FrmProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisitantes.resx">
+      <DependentUpon>FrmVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\RptAcessoProfissionais.rdlc" />
+    <EmbeddedResource Include="Reports\RptAcessoVisitantes.rdlc" />
+    <EmbeddedResource Include="TaskWindowControl.resx">
+      <DependentUpon>TaskWindowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\MetroFramework.Demo.Model.ProfissionalInfo.datasource" />
+    <None Include="Properties\DataSources\MetroFramework.Demo.Model.VisitanteInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetroFramework.Design\MetroFramework.Design.csproj">
+      <Project>{7316584d-9a16-4280-a8ab-6d45198c6e4d}</Project>
+      <Name>MetroFramework.Design</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MetroFramework.Fonts\MetroFramework.Fonts.csproj">
+      <Project>{5a2fcae8-c2fa-41bd-90ea-16103ea07b26}</Project>
+      <Name>MetroFramework.Fonts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetroFramework\MetroFramework.csproj">
+      <Project>{bb41ac8b-cbed-4387-a7e0-4567edb3f57f}</Project>
+      <Name>MetroFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GitHub-Mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moradores1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moradores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visitantes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profissionais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profissionais1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profissionais2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visitantes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moradores2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moradores3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visitantes2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profissionais3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuracao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarioSistema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendario.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

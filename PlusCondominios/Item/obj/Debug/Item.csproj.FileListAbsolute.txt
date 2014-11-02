@@ -1,0 +1,5 @@
+C:\PlusCondominios\Item\obj\Debug\Item.csprojResolveAssemblyReference.cache
+C:\PlusCondominios\App.Dlls\Item.dll
+C:\PlusCondominios\App.Dlls\Item.pdb
+C:\PlusCondominios\Item\obj\Debug\Item.dll
+C:\PlusCondominios\Item\obj\Debug\Item.pdb
