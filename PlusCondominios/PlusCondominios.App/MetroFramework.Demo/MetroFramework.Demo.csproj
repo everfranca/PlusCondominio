@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MetroFramework.Demo</RootNamespace>
     <AssemblyName>MetroFramework.Demo</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -39,7 +39,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\App.Dlls\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -55,6 +55,18 @@
   <ItemGroup>
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Nucleo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\App.Dlls\Nucleo.dll</HintPath>
+    </Reference>
+    <Reference Include="Proprietario, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\App.Dlls\Proprietario.dll</HintPath>
+    </Reference>
+    <Reference Include="ProprietarioResidencia, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\App.Dlls\ProprietarioResidencia.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -163,6 +175,16 @@
     <None Include="app.config" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.ProfissionalInfo.datasource" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.VisitanteInfo.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Bll.IProprietarioBll.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Bll.IProprietarioResidenciaBll.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Bll.ProprietarioBll.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Bll.ProprietarioResidenciaBll.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Dal.IProprietarioDal.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Dal.IProprietarioResidenciaDal.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Dal.ProprietarioDal.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Dal.ProprietarioResidenciaDal.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Model.ProprietarioInfo.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Model.ProprietarioResidenciaInfo.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

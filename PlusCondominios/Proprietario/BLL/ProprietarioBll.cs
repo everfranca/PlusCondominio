@@ -19,20 +19,7 @@ namespace PlusCondominios.Bll
 				return _ProprietarioDal;
 				}
 				
-			}
-
-			private IAgendamentoBll _IAgendamentoBll;
-			internal IAgendamentoBll AgendamentoBll
-			{
-				get
-				{
-					if(_IAgendamentoBll == null)
-						_IAgendamentoBll = new AgendamentoBll();
-					return _IAgendamentoBll;
-				}
-			}
-
-			
+			}			
 		}
 
 		private bool ValidaProprietario(ProprietarioInfo proprietarioInfo)
@@ -97,12 +84,12 @@ namespace PlusCondominios.Bll
 			}
 		}
 
-		public List<ProprietarioInfo> ListarTodos()
+        public List<ProprietarioInfo> ListarPorParametro(ProprietarioInfo proprietarioInfo)
 		{
 			Acessor acessor = new Acessor();
 			try
 			{
-				return acessor.ProprietarioDal.ListarTodos();
+                return acessor.ProprietarioDal.ListarPorParametro(proprietarioInfo);
 			}
 			catch (Exception exc)
 			{
