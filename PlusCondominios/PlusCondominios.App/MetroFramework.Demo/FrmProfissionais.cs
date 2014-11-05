@@ -1,5 +1,4 @@
-﻿using MetroFramework.Demo.Model;
-using Microsoft.Reporting.WinForms;
+﻿using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +7,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MetroFramework.Demo;
+using PlusCondominios.Model;
+using PlusCondominios.Bll;
+using Nucleo;
 
 namespace MetroFramework.Demo
 {
@@ -16,99 +19,128 @@ namespace MetroFramework.Demo
         public FrmProfissionais()
         {
             InitializeComponent();
-            MontarGrid();
-        }
-
-        List<ProfissionalInfo> lstProfissionais = new List<ProfissionalInfo>();
-
-        public void MontarGrid()
-        {
-            GridVisitantes.Rows.Add("Joaquim da Silva", "999.999-99", "16-99999-9999", "Marcão Ar Condicionados", "Editar", "Excluir");
-            GridVisitantes.Rows.Add("Antonio da Silva", "999.999-99", "16-99999-9999", "Marcão Ar Condicionados", "Editar", "Excluir");
-            GridVisitantes.Rows.Add("João da Silva", "999.999-99", "16-99999-9999", "Marcão Ar Condicionados", "Editar", "Excluir");
-            GridVisitantes.Rows.Add("Luis da Silva", "999.999-99", "16-99999-9999", "Marcão Ar Condicionados", "Editar", "Excluir");
-        }
-
-        private void MontarListaProfissionais()
-        {
-            lstProfissionais = new List<ProfissionalInfo>();
-            ProfissionalInfo profissionalInfo = new ProfissionalInfo();
-            profissionalInfo.CPF = "251.888.516-10";
-            profissionalInfo.Nome = "Joaquim da Silva";
-            profissionalInfo.Telefone = "(16)99999-9999";
-            profissionalInfo.Veiculo = "Fiat Uno";
-            profissionalInfo.Placa = "GBX-9023";
-            profissionalInfo.Apartamento = "22 Bloco G";
-            profissionalInfo.Empresa = "Marcão Ar Condicionados";
-            profissionalInfo.DataEntrada = new DateTime(2014, 6, 30, 10, 30, 25);
-            profissionalInfo.DataSaída = new DateTime(2014, 6, 30, 15, 35, 25);
-            profissionalInfo.Observacao = "Nenhuma";
-
-            lstProfissionais.Add(profissionalInfo);
-
-            profissionalInfo = new ProfissionalInfo();
-            profissionalInfo.CPF = "518.565.963-70";
-            profissionalInfo.Nome = "Antonio da Silva";
-            profissionalInfo.Telefone = "(16)99999-9999";
-            profissionalInfo.Veiculo = "Fiat Palio";
-            profissionalInfo.Placa = "GBX-9024";
-            profissionalInfo.Apartamento = "23 Bloco G";
-            profissionalInfo.Empresa = "Marcão Ar Condicionados";
-            profissionalInfo.DataEntrada = new DateTime(2014, 6, 30, 10, 30, 25);
-            profissionalInfo.DataSaída = new DateTime(2014, 6, 30, 15, 35, 25);
-            profissionalInfo.Observacao = "Nenhuma";
-
-            lstProfissionais.Add(profissionalInfo);
-
-            profissionalInfo = new ProfissionalInfo();
-            profissionalInfo.CPF = "518.565.963-70";
-            profissionalInfo.Nome = "João da Silva";
-            profissionalInfo.Telefone = "(16)99999-9999";
-            profissionalInfo.Veiculo = "Fiat Bravo";
-            profissionalInfo.Placa = "GBX-9025";
-            profissionalInfo.Apartamento = "24 Bloco G";
-            profissionalInfo.Empresa = "Marcão Ar Condicionados";
-            profissionalInfo.DataEntrada = new DateTime(2014, 6, 30, 10, 30, 25);
-            profissionalInfo.DataSaída = new DateTime(2014, 6, 30, 15, 35, 25);
-            profissionalInfo.Observacao = "Nenhuma";
-
-            lstProfissionais.Add(profissionalInfo);
-
-            profissionalInfo = new ProfissionalInfo();
-            profissionalInfo.CPF = "518.565.963-70";
-            profissionalInfo.Nome = "Luis da Silva";
-            profissionalInfo.Telefone = "(16)99999-9999";
-            profissionalInfo.Veiculo = "Fiat Linea";
-            profissionalInfo.Placa = "GBX-9026";
-            profissionalInfo.Apartamento = "25 Bloco G";
-            profissionalInfo.Empresa = "Marcão Ar Condicionados";
-            profissionalInfo.DataEntrada = new DateTime(2014, 6, 30, 10, 30, 25);
-            profissionalInfo.DataSaída = new DateTime(2014, 6, 30, 15, 35, 25);
-            profissionalInfo.Observacao = "Nenhuma";
-
-            lstProfissionais.Add(profissionalInfo);
-
-            //---
-            ReportDataSource rds = new ReportDataSource("DataSetAcessoProfissionais", lstProfissionais);
-            reportViewer1.LocalReport.DataSources.Clear();
-            reportViewer1.LocalReport.DataSources.Add(rds);
-            reportViewer1.LocalReport.Refresh();
         }
 
         private void FrmProfissionais_Load(object sender, EventArgs e)
         {
-
-            this.reportViewer1.RefreshReport();
         }
 
         private void metroTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (metroTabControl1.SelectedIndex == 2)
-            {
-                MontarListaProfissionais();
+        }
 
-                this.reportViewer1.RefreshReport();
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            ProfissionalInfo info = new ProfissionalInfo();
+            ProfissionalBll bll = new ProfissionalBll();
+
+            try
+            {
+                if (VerificaCamposObrigatorios())
+                {
+                    info.PRO_Cpf = txtCpf.Text.Replace(".", "").Replace("-", "");
+                    info.PRO_Nome = txtNome.Text;
+                    info.PRO_Telefone = txtTelefone.Text.Replace("()", "").Replace("-", "");
+                    info.PRO_Veiculo = txtVeiculo.Text;
+                    info.PRO_Placa = txtPlaca.Text.Replace("-", "");
+                    info.PRO_Empresa = txtEmpresa.Text;
+                    info.PRO_Foto = "";
+                    if(bll.Salvar(info))
+                        MetroMessageBox.Show(this, "Dados salvo com sucesso.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                        MetroMessageBox.Show(this, "Erro ao salvar dados.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+            catch(Exception exc)
+            {
+                MetroMessageBox.Show(this, "Campo CPF obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            finally
+            {
+                info = null;
+            }
+
+        }
+
+        private bool VerificaCamposObrigatorios()
+        {
+
+            if (string.IsNullOrEmpty(txtCpf.Text))
+            {
+                MetroMessageBox.Show(this, "Campo CPF obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtNome.Text))
+            {
+                MetroMessageBox.Show(this, "Campo Nome obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtTelefone.Text))
+            {
+                MetroMessageBox.Show(this, "Campo Telefone obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtVeiculo.Text))
+            {
+                MetroMessageBox.Show(this, "Campo Veículo obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtPlaca.Text))
+            {
+                MetroMessageBox.Show(this, "Campo Placa obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtEmpresa.Text))
+            {
+                MetroMessageBox.Show(this, "Campo Empresa obrigatório.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return false;
+            }
+
+            return true;
+        }
+
+        private void txtCpf_Leave(object sender, EventArgs e)
+        {
+            Validations info = new Validations();
+
+            try
+            {
+                if(!info.isCPF(txtCpf.Text))
+                    MetroMessageBox.Show(this, "CPF informado inválido ! Verifique os dados informado.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch(Exception exc)
+            {
+
+            }
+            finally
+            {
+                info = null;
             }
         }
+
+        private void setMascaraCpf()
+        {
+            var tamnho = txtCpf.Text.Length;
+            switch (tamnho)
+            {
+                case 3:
+                    txtCpf.Text += ".";
+                    break;
+                case 7:
+                    txtCpf.Text += ".";
+                    break;
+
+                case 11:
+                    txtCpf.Text +=  "-";
+                    break;
+            }
+        }
+
     }
 }

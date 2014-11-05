@@ -26,3 +26,10 @@ D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\bin\Debug\MetroFramework.pd
 D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
 D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
 D:\Projetos\Projeto Condomínio\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb

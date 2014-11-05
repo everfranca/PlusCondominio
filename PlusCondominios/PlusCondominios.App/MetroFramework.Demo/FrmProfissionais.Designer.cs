@@ -40,22 +40,22 @@
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
             this.metroPanel4 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
-            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.txtEmpresa = new MetroFramework.Controls.MetroTextBox();
+            this.btnFoto = new MetroFramework.Controls.MetroButton();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroButton5 = new MetroFramework.Controls.MetroButton();
+            this.imgProfissional = new MetroFramework.Controls.MetroButton();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.txtPlaca = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
+            this.txtVeiculo = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.txtTelefone = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.txtNome = new MetroFramework.Controls.MetroTextBox();
+            this.btnCancelar = new MetroFramework.Controls.MetroButton();
+            this.btnSalva = new MetroFramework.Controls.MetroButton();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.txtCpf = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.btnNovo = new MetroFramework.Controls.MetroButton();
@@ -89,10 +89,6 @@
             this.metroTabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ProfissionalInfoBindingSource
-            // 
-            this.ProfissionalInfoBindingSource.DataSource = typeof(MetroFramework.Demo.Model.ProfissionalInfo);
-            // 
             // metroStyleManager
             // 
             this.metroStyleManager.Owner = null;
@@ -120,22 +116,22 @@
             // metroPanel4
             // 
             this.metroPanel4.Controls.Add(this.metroLabel8);
-            this.metroPanel4.Controls.Add(this.metroTextBox6);
-            this.metroPanel4.Controls.Add(this.metroButton3);
+            this.metroPanel4.Controls.Add(this.txtEmpresa);
+            this.metroPanel4.Controls.Add(this.btnFoto);
             this.metroPanel4.Controls.Add(this.metroLabel7);
-            this.metroPanel4.Controls.Add(this.metroButton5);
+            this.metroPanel4.Controls.Add(this.imgProfissional);
             this.metroPanel4.Controls.Add(this.metroLabel6);
-            this.metroPanel4.Controls.Add(this.metroTextBox5);
+            this.metroPanel4.Controls.Add(this.txtPlaca);
             this.metroPanel4.Controls.Add(this.metroLabel5);
-            this.metroPanel4.Controls.Add(this.metroTextBox4);
+            this.metroPanel4.Controls.Add(this.txtVeiculo);
             this.metroPanel4.Controls.Add(this.metroLabel4);
-            this.metroPanel4.Controls.Add(this.metroTextBox3);
+            this.metroPanel4.Controls.Add(this.txtTelefone);
             this.metroPanel4.Controls.Add(this.metroLabel3);
-            this.metroPanel4.Controls.Add(this.metroTextBox2);
-            this.metroPanel4.Controls.Add(this.metroButton1);
-            this.metroPanel4.Controls.Add(this.metroButton2);
+            this.metroPanel4.Controls.Add(this.txtNome);
+            this.metroPanel4.Controls.Add(this.btnCancelar);
+            this.metroPanel4.Controls.Add(this.btnSalva);
             this.metroPanel4.Controls.Add(this.metroLabel2);
-            this.metroPanel4.Controls.Add(this.metroTextBox1);
+            this.metroPanel4.Controls.Add(this.txtCpf);
             this.metroPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroPanel4.HorizontalScrollbarBarColor = true;
             this.metroPanel4.HorizontalScrollbarHighlightOnWheel = false;
@@ -158,32 +154,32 @@
             this.metroLabel8.TabIndex = 33;
             this.metroLabel8.Text = "Empresa do Profissional";
             // 
-            // metroTextBox6
+            // txtEmpresa
             // 
-            this.metroTextBox6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox6.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox6.Lines = new string[0];
-            this.metroTextBox6.Location = new System.Drawing.Point(659, 94);
-            this.metroTextBox6.MaxLength = 32767;
-            this.metroTextBox6.Name = "metroTextBox6";
-            this.metroTextBox6.PasswordChar = '\0';
-            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox6.SelectedText = "";
-            this.metroTextBox6.Size = new System.Drawing.Size(312, 35);
-            this.metroTextBox6.TabIndex = 34;
-            this.metroTextBox6.UseSelectable = true;
+            this.txtEmpresa.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtEmpresa.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtEmpresa.Lines = new string[0];
+            this.txtEmpresa.Location = new System.Drawing.Point(659, 94);
+            this.txtEmpresa.MaxLength = 32767;
+            this.txtEmpresa.Name = "txtEmpresa";
+            this.txtEmpresa.PasswordChar = '\0';
+            this.txtEmpresa.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtEmpresa.SelectedText = "";
+            this.txtEmpresa.Size = new System.Drawing.Size(312, 35);
+            this.txtEmpresa.TabIndex = 34;
+            this.txtEmpresa.UseSelectable = true;
             // 
-            // metroButton3
+            // btnFoto
             // 
-            this.metroButton3.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.metroButton3.FontWeight = MetroFramework.MetroButtonWeight.Light;
-            this.metroButton3.Highlight = true;
-            this.metroButton3.Location = new System.Drawing.Point(128, 197);
-            this.metroButton3.Name = "metroButton3";
-            this.metroButton3.Size = new System.Drawing.Size(89, 35);
-            this.metroButton3.TabIndex = 32;
-            this.metroButton3.Text = "Trocar Foto";
-            this.metroButton3.UseSelectable = true;
+            this.btnFoto.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnFoto.FontWeight = MetroFramework.MetroButtonWeight.Light;
+            this.btnFoto.Highlight = true;
+            this.btnFoto.Location = new System.Drawing.Point(128, 197);
+            this.btnFoto.Name = "btnFoto";
+            this.btnFoto.Size = new System.Drawing.Size(89, 35);
+            this.btnFoto.TabIndex = 32;
+            this.btnFoto.Text = "Trocar Foto";
+            this.btnFoto.UseSelectable = true;
             // 
             // metroLabel7
             // 
@@ -195,16 +191,16 @@
             this.metroLabel7.TabIndex = 31;
             this.metroLabel7.Text = "Foto";
             // 
-            // metroButton5
+            // imgProfissional
             // 
-            this.metroButton5.BackgroundImage = global::MetroFramework.Demo.Properties.Resources.usuario;
-            this.metroButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.metroButton5.Location = new System.Drawing.Point(16, 166);
-            this.metroButton5.Name = "metroButton5";
-            this.metroButton5.Size = new System.Drawing.Size(106, 101);
-            this.metroButton5.TabIndex = 30;
-            this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroButton5.UseSelectable = true;
+            this.imgProfissional.BackgroundImage = global::MetroFramework.Demo.Properties.Resources.usuario;
+            this.imgProfissional.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imgProfissional.Location = new System.Drawing.Point(16, 166);
+            this.imgProfissional.Name = "imgProfissional";
+            this.imgProfissional.Size = new System.Drawing.Size(106, 101);
+            this.imgProfissional.TabIndex = 30;
+            this.imgProfissional.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.imgProfissional.UseSelectable = true;
             // 
             // metroLabel6
             // 
@@ -216,20 +212,20 @@
             this.metroLabel6.TabIndex = 28;
             this.metroLabel6.Text = "Placa";
             // 
-            // metroTextBox5
+            // txtPlaca
             // 
-            this.metroTextBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox5.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox5.Lines = new string[0];
-            this.metroTextBox5.Location = new System.Drawing.Point(501, 94);
-            this.metroTextBox5.MaxLength = 32767;
-            this.metroTextBox5.Name = "metroTextBox5";
-            this.metroTextBox5.PasswordChar = '\0';
-            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox5.SelectedText = "";
-            this.metroTextBox5.Size = new System.Drawing.Size(152, 35);
-            this.metroTextBox5.TabIndex = 29;
-            this.metroTextBox5.UseSelectable = true;
+            this.txtPlaca.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtPlaca.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtPlaca.Lines = new string[0];
+            this.txtPlaca.Location = new System.Drawing.Point(501, 94);
+            this.txtPlaca.MaxLength = 32767;
+            this.txtPlaca.Name = "txtPlaca";
+            this.txtPlaca.PasswordChar = '\0';
+            this.txtPlaca.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtPlaca.SelectedText = "";
+            this.txtPlaca.Size = new System.Drawing.Size(152, 35);
+            this.txtPlaca.TabIndex = 29;
+            this.txtPlaca.UseSelectable = true;
             // 
             // metroLabel5
             // 
@@ -241,20 +237,20 @@
             this.metroLabel5.TabIndex = 26;
             this.metroLabel5.Text = "Veículo";
             // 
-            // metroTextBox4
+            // txtVeiculo
             // 
-            this.metroTextBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox4.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox4.Lines = new string[0];
-            this.metroTextBox4.Location = new System.Drawing.Point(228, 94);
-            this.metroTextBox4.MaxLength = 32767;
-            this.metroTextBox4.Name = "metroTextBox4";
-            this.metroTextBox4.PasswordChar = '\0';
-            this.metroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox4.SelectedText = "";
-            this.metroTextBox4.Size = new System.Drawing.Size(267, 35);
-            this.metroTextBox4.TabIndex = 27;
-            this.metroTextBox4.UseSelectable = true;
+            this.txtVeiculo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtVeiculo.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtVeiculo.Lines = new string[0];
+            this.txtVeiculo.Location = new System.Drawing.Point(228, 94);
+            this.txtVeiculo.MaxLength = 32767;
+            this.txtVeiculo.Name = "txtVeiculo";
+            this.txtVeiculo.PasswordChar = '\0';
+            this.txtVeiculo.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtVeiculo.SelectedText = "";
+            this.txtVeiculo.Size = new System.Drawing.Size(267, 35);
+            this.txtVeiculo.TabIndex = 27;
+            this.txtVeiculo.UseSelectable = true;
             // 
             // metroLabel4
             // 
@@ -266,20 +262,20 @@
             this.metroLabel4.TabIndex = 24;
             this.metroLabel4.Text = "Telefone";
             // 
-            // metroTextBox3
+            // txtTelefone
             // 
-            this.metroTextBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox3.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox3.Lines = new string[0];
-            this.metroTextBox3.Location = new System.Drawing.Point(16, 94);
-            this.metroTextBox3.MaxLength = 32767;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '\0';
-            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.Size = new System.Drawing.Size(206, 35);
-            this.metroTextBox3.TabIndex = 25;
-            this.metroTextBox3.UseSelectable = true;
+            this.txtTelefone.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtTelefone.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtTelefone.Lines = new string[0];
+            this.txtTelefone.Location = new System.Drawing.Point(16, 94);
+            this.txtTelefone.MaxLength = 32767;
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.PasswordChar = '\0';
+            this.txtTelefone.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtTelefone.SelectedText = "";
+            this.txtTelefone.Size = new System.Drawing.Size(206, 35);
+            this.txtTelefone.TabIndex = 25;
+            this.txtTelefone.UseSelectable = true;
             // 
             // metroLabel3
             // 
@@ -291,44 +287,45 @@
             this.metroLabel3.TabIndex = 22;
             this.metroLabel3.Text = "Nome";
             // 
-            // metroTextBox2
+            // txtNome
             // 
-            this.metroTextBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox2.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox2.Lines = new string[0];
-            this.metroTextBox2.Location = new System.Drawing.Point(228, 28);
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.Size = new System.Drawing.Size(743, 35);
-            this.metroTextBox2.TabIndex = 23;
-            this.metroTextBox2.UseSelectable = true;
+            this.txtNome.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtNome.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtNome.Lines = new string[0];
+            this.txtNome.Location = new System.Drawing.Point(228, 28);
+            this.txtNome.MaxLength = 32767;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.PasswordChar = '\0';
+            this.txtNome.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtNome.SelectedText = "";
+            this.txtNome.Size = new System.Drawing.Size(743, 35);
+            this.txtNome.TabIndex = 23;
+            this.txtNome.UseSelectable = true;
             // 
-            // metroButton1
+            // btnCancelar
             // 
-            this.metroButton1.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.metroButton1.FontWeight = MetroFramework.MetroButtonWeight.Light;
-            this.metroButton1.Highlight = true;
-            this.metroButton1.Location = new System.Drawing.Point(779, 376);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(192, 35);
-            this.metroButton1.TabIndex = 21;
-            this.metroButton1.Text = "Cancelar Registro";
-            this.metroButton1.UseSelectable = true;
+            this.btnCancelar.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnCancelar.FontWeight = MetroFramework.MetroButtonWeight.Light;
+            this.btnCancelar.Highlight = true;
+            this.btnCancelar.Location = new System.Drawing.Point(779, 376);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(192, 35);
+            this.btnCancelar.TabIndex = 21;
+            this.btnCancelar.Text = "Cancelar Registro";
+            this.btnCancelar.UseSelectable = true;
             // 
-            // metroButton2
+            // btnSalva
             // 
-            this.metroButton2.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.metroButton2.FontWeight = MetroFramework.MetroButtonWeight.Light;
-            this.metroButton2.Highlight = true;
-            this.metroButton2.Location = new System.Drawing.Point(581, 376);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(192, 35);
-            this.metroButton2.TabIndex = 20;
-            this.metroButton2.Text = "Salvar Registro";
-            this.metroButton2.UseSelectable = true;
+            this.btnSalva.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnSalva.FontWeight = MetroFramework.MetroButtonWeight.Light;
+            this.btnSalva.Highlight = true;
+            this.btnSalva.Location = new System.Drawing.Point(581, 376);
+            this.btnSalva.Name = "btnSalva";
+            this.btnSalva.Size = new System.Drawing.Size(192, 35);
+            this.btnSalva.TabIndex = 20;
+            this.btnSalva.Text = "Salvar Registro";
+            this.btnSalva.UseSelectable = true;
+            this.btnSalva.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // metroLabel2
             // 
@@ -340,20 +337,21 @@
             this.metroLabel2.TabIndex = 16;
             this.metroLabel2.Text = "CPF";
             // 
-            // metroTextBox1
+            // txtCpf
             // 
-            this.metroTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.metroTextBox1.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(16, 28);
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.Size = new System.Drawing.Size(206, 35);
-            this.metroTextBox1.TabIndex = 17;
-            this.metroTextBox1.UseSelectable = true;
+            this.txtCpf.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtCpf.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtCpf.Lines = new string[0];
+            this.txtCpf.Location = new System.Drawing.Point(16, 28);
+            this.txtCpf.MaxLength = 32767;
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.PasswordChar = '\0';
+            this.txtCpf.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtCpf.SelectedText = "";
+            this.txtCpf.Size = new System.Drawing.Size(206, 35);
+            this.txtCpf.TabIndex = 17;
+            this.txtCpf.UseSelectable = true;
+            this.txtCpf.Leave += new System.EventHandler(this.txtCpf_Leave);
             // 
             // metroTabPage4
             // 
@@ -603,7 +601,7 @@
             this.metroTabControl1.FontSize = MetroFramework.MetroTabControlSize.Tall;
             this.metroTabControl1.Location = new System.Drawing.Point(20, 60);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
+            this.metroTabControl1.SelectedIndex = 1;
             this.metroTabControl1.Size = new System.Drawing.Size(1042, 531);
             this.metroTabControl1.TabIndex = 0;
             this.metroTabControl1.UseSelectable = true;
@@ -652,22 +650,22 @@
         private System.Windows.Forms.DataGridView GridVisitantes;
         private Controls.MetroPanel metroPanel4;
         private Controls.MetroLabel metroLabel8;
-        private Controls.MetroTextBox metroTextBox6;
-        private Controls.MetroButton metroButton3;
+        private Controls.MetroTextBox txtEmpresa;
+        private Controls.MetroButton btnFoto;
         private Controls.MetroLabel metroLabel7;
-        private Controls.MetroButton metroButton5;
+        private Controls.MetroButton imgProfissional;
         private Controls.MetroLabel metroLabel6;
-        private Controls.MetroTextBox metroTextBox5;
+        private Controls.MetroTextBox txtPlaca;
         private Controls.MetroLabel metroLabel5;
-        private Controls.MetroTextBox metroTextBox4;
+        private Controls.MetroTextBox txtVeiculo;
         private Controls.MetroLabel metroLabel4;
-        private Controls.MetroTextBox metroTextBox3;
+        private Controls.MetroTextBox txtTelefone;
         private Controls.MetroLabel metroLabel3;
-        private Controls.MetroTextBox metroTextBox2;
-        private Controls.MetroButton metroButton1;
-        private Controls.MetroButton metroButton2;
+        private Controls.MetroTextBox txtNome;
+        private Controls.MetroButton btnCancelar;
+        private Controls.MetroButton btnSalva;
         private Controls.MetroLabel metroLabel2;
-        private Controls.MetroTextBox metroTextBox1;
+        private Controls.MetroTextBox txtCpf;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn CPF;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
@@ -676,5 +674,6 @@
         private System.Windows.Forms.DataGridViewButtonColumn acao1;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource ProfissionalInfoBindingSource;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }

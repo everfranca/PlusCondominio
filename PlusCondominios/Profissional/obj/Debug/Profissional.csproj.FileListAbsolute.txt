@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\Profissional.dll
 C:\PlusCondominios\App.Dlls\Profissional.pdb
 C:\PlusCondominios\Profissional\obj\Debug\Profissional.dll
 C:\PlusCondominios\Profissional\obj\Debug\Profissional.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Profissional.dll
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Profissional.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\Profissional\obj\Debug\Profissional.csprojResolveAssemblyReference.cache
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\Profissional\obj\Debug\Profissional.dll
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\Profissional\obj\Debug\Profissional.pdb
