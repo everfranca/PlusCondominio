@@ -76,6 +76,7 @@
             this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ProfissionalInfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
             this.metroTabPage3.SuspendLayout();
@@ -87,6 +88,7 @@
             this.metroPanel3.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroStyleManager
@@ -115,6 +117,7 @@
             // 
             // metroPanel4
             // 
+            this.metroPanel4.Controls.Add(this.pictureBox1);
             this.metroPanel4.Controls.Add(this.metroLabel8);
             this.metroPanel4.Controls.Add(this.txtEmpresa);
             this.metroPanel4.Controls.Add(this.btnFoto);
@@ -180,6 +183,7 @@
             this.btnFoto.TabIndex = 32;
             this.btnFoto.Text = "Trocar Foto";
             this.btnFoto.UseSelectable = true;
+            this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
             // 
             // metroLabel7
             // 
@@ -607,6 +611,14 @@
             this.metroTabControl1.UseSelectable = true;
             this.metroTabControl1.SelectedIndexChanged += new System.EventHandler(this.metroTabControl1_SelectedIndexChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(238, 166);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(145, 129);
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmProfissionais
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -627,6 +639,7 @@
             this.metroPanel3.ResumeLayout(false);
             this.metroTabPage1.ResumeLayout(false);
             this.metroTabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -675,5 +688,6 @@
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource ProfissionalInfoBindingSource;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

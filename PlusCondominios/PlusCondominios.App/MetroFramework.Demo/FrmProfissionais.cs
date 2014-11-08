@@ -11,6 +11,7 @@ using MetroFramework.Demo;
 using PlusCondominios.Model;
 using PlusCondominios.Bll;
 using Nucleo;
+using WebCam_Capture;
 
 namespace MetroFramework.Demo
 {
@@ -124,23 +125,11 @@ namespace MetroFramework.Demo
             }
         }
 
-        private void setMascaraCpf()
+        private void btnFoto_Click(object sender, EventArgs e)
         {
-            var tamnho = txtCpf.Text.Length;
-            switch (tamnho)
-            {
-                case 3:
-                    txtCpf.Text += ".";
-                    break;
-                case 7:
-                    txtCpf.Text += ".";
-                    break;
-
-                case 11:
-                    txtCpf.Text +=  "-";
-                    break;
-            }
+            WebCamCapture web = new WebCamCapture();
+            web.Start(0);
+            //web.ImageCaptured(web, WebcamEventArgs);
         }
-
     }
 }

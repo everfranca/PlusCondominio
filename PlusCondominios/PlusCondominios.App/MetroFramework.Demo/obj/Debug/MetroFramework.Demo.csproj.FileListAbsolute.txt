@@ -111,3 +111,4 @@ C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCond
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\bin\Debug\Nucleo.dll
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\bin\Debug\Profissional.pdb
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\bin\Debug\Nucleo.pdb
+C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Demo\bin\Debug\WebCam_Capture.dll
