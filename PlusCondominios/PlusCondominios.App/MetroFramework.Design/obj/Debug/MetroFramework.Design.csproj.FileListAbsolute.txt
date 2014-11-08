@@ -33,3 +33,10 @@ C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCond
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.csprojResolveAssemblyReference.cache
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.dll
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.pdb
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\bin\Debug\MetroFramework.Design.dll
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\bin\Debug\MetroFramework.Design.pdb
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\bin\Debug\MetroFramework.dll
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\bin\Debug\MetroFramework.pdb
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.csprojResolveAssemblyReference.cache
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.dll
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Design\obj\Debug\MetroFramework.Design.pdb

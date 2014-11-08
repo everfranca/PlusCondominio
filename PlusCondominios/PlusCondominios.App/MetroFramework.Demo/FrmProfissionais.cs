@@ -10,8 +10,6 @@ using System.Windows.Forms;
 using MetroFramework.Demo;
 using PlusCondominios.Model;
 using PlusCondominios.Bll;
-using Nucleo;
-using WebCam_Capture;
 
 namespace MetroFramework.Demo
 {
@@ -108,7 +106,7 @@ namespace MetroFramework.Demo
 
         private void txtCpf_Leave(object sender, EventArgs e)
         {
-            Validations info = new Validations();
+            Nucleo.Validations info = new Validations();
 
             try
             {
@@ -127,8 +125,8 @@ namespace MetroFramework.Demo
 
         private void btnFoto_Click(object sender, EventArgs e)
         {
-            WebCamCapture web = new WebCamCapture();
-            web.Start(0);
+            //WebCamCapture web = new WebCamCapture();
+            //web.Start(0);
             //web.ImageCaptured(web, WebcamEventArgs);
         }
     }

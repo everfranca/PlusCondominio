@@ -38,3 +38,10 @@ C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCond
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.csproj.GenerateResource.Cache
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.dll
 C:\Users\Marcos.Diegues\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.pdb
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\bin\Debug\MetroFramework.dll
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\bin\Debug\MetroFramework.pdb
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.MetroMessageBoxControl.resources
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.Properties.Resources.resources
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.csproj.GenerateResource.Cache
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.dll
+C:\Users\Éverton\Documents\GitHub\PlusCondominios\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework\obj\Debug\MetroFramework.pdb

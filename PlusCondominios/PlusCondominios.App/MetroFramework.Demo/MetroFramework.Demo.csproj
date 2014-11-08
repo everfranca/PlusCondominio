@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MetroFramework.Demo</RootNamespace>
     <AssemblyName>MetroFramework.Demo</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -39,7 +39,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\App.Dlls\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,21 +53,58 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AcessoProfissional">
+      <HintPath>..\..\App.Dlls\AcessoProfissional.dll</HintPath>
+    </Reference>
+    <Reference Include="AcessoVisitante">
+      <HintPath>..\..\App.Dlls\AcessoVisitante.dll</HintPath>
+    </Reference>
+    <Reference Include="Agendamento">
+      <HintPath>..\..\App.Dlls\Agendamento.dll</HintPath>
+    </Reference>
+    <Reference Include="Empresa">
+      <HintPath>..\..\App.Dlls\Empresa.dll</HintPath>
+    </Reference>
+    <Reference Include="Entrega">
+      <HintPath>..\..\App.Dlls\Entrega.dll</HintPath>
+    </Reference>
+    <Reference Include="Item">
+      <HintPath>..\..\App.Dlls\Item.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\App.Dlls\MetroFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Nucleo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\App.Dlls\Nucleo.dll</HintPath>
     </Reference>
-    <Reference Include="Profissional">
-      <HintPath>..\..\App.Dlls\Profissional.dll</HintPath>
-    <Reference Include="Proprietario, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Perfil">
+      <HintPath>..\..\App.Dlls\Perfil.dll</HintPath>
+    </Reference>
+    <Reference Include="PermissaoUsuarioItem">
+      <HintPath>..\..\App.Dlls\PermissaoUsuarioItem.dll</HintPath>
+    </Reference>
+    <Reference Include="Profissional, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\App.Dlls\Profissional.dll</HintPath>
+    </Reference>
+    <Reference Include="Proprietario">
       <HintPath>..\..\App.Dlls\Proprietario.dll</HintPath>
     </Reference>
-    <Reference Include="ProprietarioResidencia, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="ProprietarioResidencia">
       <HintPath>..\..\App.Dlls\ProprietarioResidencia.dll</HintPath>
+    </Reference>
+    <Reference Include="ProprietarioTelefone">
+      <HintPath>..\..\App.Dlls\ProprietarioTelefone.dll</HintPath>
+    </Reference>
+    <Reference Include="ProprietarioVeiculo">
+      <HintPath>..\..\App.Dlls\ProprietarioVeiculo.dll</HintPath>
+    </Reference>
+    <Reference Include="Residencia">
+      <HintPath>..\..\App.Dlls\Residencia.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -75,8 +112,17 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WebCam_Capture">
-      <HintPath>..\..\..\..\..\..\Downloads\WebCam_Capture.dll</HintPath>
+    <Reference Include="TipoAgendamento">
+      <HintPath>..\..\App.Dlls\TipoAgendamento.dll</HintPath>
+    </Reference>
+    <Reference Include="TipoEntrega">
+      <HintPath>..\..\App.Dlls\TipoEntrega.dll</HintPath>
+    </Reference>
+    <Reference Include="Usuario">
+      <HintPath>..\..\App.Dlls\Usuario.dll</HintPath>
+    </Reference>
+    <Reference Include="Visitante">
+      <HintPath>..\..\App.Dlls\Visitante.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -178,16 +224,6 @@
     <None Include="app.config" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.ProfissionalInfo.datasource" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.VisitanteInfo.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Bll.IProprietarioBll.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Bll.IProprietarioResidenciaBll.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Bll.ProprietarioBll.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Bll.ProprietarioResidenciaBll.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Dal.IProprietarioDal.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Dal.IProprietarioResidenciaDal.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Dal.ProprietarioDal.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Dal.ProprietarioResidenciaDal.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Model.ProprietarioInfo.datasource" />
-    <None Include="Properties\DataSources\PlusCondominios.Model.ProprietarioResidenciaInfo.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -219,10 +255,6 @@
     <ProjectReference Include="..\MetroFramework.Fonts\MetroFramework.Fonts.csproj">
       <Project>{5a2fcae8-c2fa-41bd-90ea-16103ea07b26}</Project>
       <Name>MetroFramework.Fonts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MetroFramework\MetroFramework.csproj">
-      <Project>{bb41ac8b-cbed-4387-a7e0-4567edb3f57f}</Project>
-      <Name>MetroFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -286,7 +318,7 @@
     <None Include="Resources\Calendario.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

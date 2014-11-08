@@ -1,6 +1,4 @@
-﻿using PlusCondominios.Bll;
-using PlusCondominios.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +21,7 @@ namespace MetroFramework.Demo
             BuscaProprietarios();
         }
 
-        ProprietarioBll proprietarioBll = new ProprietarioBll();
+        PlusCondominios.Bll.ProprietarioBll proprietarioBll = new ProprietarioBll();
 
         private void BuscaProprietarios()
         {
@@ -94,7 +92,7 @@ namespace MetroFramework.Demo
         {
             if (MetroMessageBox.Show(this, "Confirma Exclusão do Registro?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
             {
-                var info = proprietarioGridBindingSource.Current as ProprietarioInfo;
+                var info = proprietarioGridBindingSource.Current as PlusCondominios.Model.ProprietarioInfo;
                 if (info != null)
                 {
                     proprietarioBindingSource.DataSource = info;
