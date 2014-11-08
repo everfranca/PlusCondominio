@@ -9,7 +9,7 @@ namespace PlusCondominios.Dal
 {
 	public class ProprietarioDal : IProprietarioDal
 	{
-		private const string spListarTodos = "Proprietario_ListarTodos";
+        private const string spListarPorParametro = "Proprietario_ListarPorParametro";
 		private const string spListarPorCodigo = "Proprietario_ListarPorCodigo";
 		private const string spInserir = "Proprietario_Inserir";
 		private const string spEditar = "Proprietario_Editar";
@@ -21,7 +21,8 @@ namespace PlusCondominios.Dal
 		private const string paramPRT_Nome = "@PRT_Nome";
 		private const string paramPRT_Foto = "@PRT_Foto";
 		private const string paramPRT_Ativo = "@PRT_Ativo";
-		private const string paramPRT_Sindico = "@PRT_Sindico";
+        private const string paramPRT_Sindico = "@PRT_Sindico";
+        private const string paramPRT_Aluguel = "@PRT_Aluguel";
 
 		public bool Inserir(ProprietarioInfo proprietarioInfo)
 		{
@@ -37,7 +38,8 @@ namespace PlusCondominios.Dal
 				lParam.Add(new SqlParameter(paramPRT_Nome, proprietarioInfo.PRT_Nome));
 				lParam.Add(new SqlParameter(paramPRT_Foto, proprietarioInfo.PRT_Foto));
 				lParam.Add(new SqlParameter(paramPRT_Ativo, proprietarioInfo.PRT_Ativo));
-				lParam.Add(new SqlParameter(paramPRT_Sindico, proprietarioInfo.PRT_Sindico));
+                lParam.Add(new SqlParameter(paramPRT_Aluguel, proprietarioInfo.PRT_Aluguel));
+                lParam.Add(new SqlParameter(paramPRT_Sindico, proprietarioInfo.PRT_Sindico));
 				
 				using (sp = new StoredProcedure(spInserir, lParam, ConexoesBanco.PlusCondominios))
 				{
@@ -79,7 +81,8 @@ namespace PlusCondominios.Dal
 				lParam.Add(new SqlParameter(paramPRT_Nome, proprietarioInfo.PRT_Nome));
 				lParam.Add(new SqlParameter(paramPRT_Foto, proprietarioInfo.PRT_Foto));
 				lParam.Add(new SqlParameter(paramPRT_Ativo, proprietarioInfo.PRT_Ativo));
-				lParam.Add(new SqlParameter(paramPRT_Sindico, proprietarioInfo.PRT_Sindico));
+                lParam.Add(new SqlParameter(paramPRT_Sindico, proprietarioInfo.PRT_Sindico));
+                lParam.Add(new SqlParameter(paramPRT_Aluguel, proprietarioInfo.PRT_Aluguel));
 				
 				using (sp = new StoredProcedure(spEditar, lParam, ConexoesBanco.PlusCondominios))
 				{
@@ -125,7 +128,7 @@ namespace PlusCondominios.Dal
 			return sucesso;
 		}
 
-		public List<ProprietarioInfo> ListarTodos()
+		public List<ProprietarioInfo> ListarPorParametro(ProprietarioInfo proprietarioInfo)
 		{
 			List<SqlParameter> lParam = new List<SqlParameter>();
 			List<ProprietarioInfo> lst = new List<ProprietarioInfo>();
@@ -134,7 +137,12 @@ namespace PlusCondominios.Dal
 
 			try
 			{
-				using (sp = new StoredProcedure(spListarTodos, lParam, ConexoesBanco.PlusCondominios))
+                lParam.Add(new SqlParameter(paramPRT_Codigo, proprietarioInfo.PRT_Codigo));
+                lParam.Add(new SqlParameter(paramPRT_Cpf, proprietarioInfo.PRT_Cpf));
+                lParam.Add(new SqlParameter(paramPRT_Rg, proprietarioInfo.PRT_Rg));
+                lParam.Add(new SqlParameter(paramPRT_Nome, proprietarioInfo.PRT_Nome));
+
+				using (sp = new StoredProcedure(spListarPorParametro, lParam, ConexoesBanco.PlusCondominios))
 				{
 					dr = sp.GetDataReader();
 

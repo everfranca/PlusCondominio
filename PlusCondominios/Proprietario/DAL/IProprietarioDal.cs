@@ -9,7 +9,7 @@ namespace PlusCondominios.Dal
 		bool Editar(ProprietarioInfo proprietarioInfo);
 		bool Excluir(int prt_codigo);
 
-		List<ProprietarioInfo> ListarTodos();
+        List<ProprietarioInfo> ListarPorParametro(ProprietarioInfo proprietarioInfo);
 
 		ProprietarioInfo ListarPorCodigo(int prt_codigo);
 	}

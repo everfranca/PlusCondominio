@@ -34,22 +34,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\App.Dlls\Nucleo.dll</HintPath>
     </Reference>
-    <Reference Include="Agendamento ,Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\App.Dlls\Agendamento.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="ProprietarioResidencia ,Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\App.Dlls\ProprietarioResidencia.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="ProprietarioTelefone ,Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\App.Dlls\ProprietarioTelefone.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="ProprietarioVeiculo ,Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\App.Dlls\ProprietarioVeiculo.Model.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />

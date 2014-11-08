@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\ProprietarioResidencia.pdb
 C:\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.dll
 C:\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\ProprietarioResidencia.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\ProprietarioResidencia.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioResidencia\obj\Debug\ProprietarioResidencia.pdb
