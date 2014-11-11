@@ -555,7 +555,6 @@
             // 
             // VisitanteInfoBindingSource
             // 
-            this.VisitanteInfoBindingSource.DataSource = typeof(MetroFramework.Demo.Model.VisitanteInfo);
             // 
             // FrmVisitantes
             // 
