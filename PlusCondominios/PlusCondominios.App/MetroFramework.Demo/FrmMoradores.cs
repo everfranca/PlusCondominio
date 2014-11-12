@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PlusCondominios.Bll;
+using PlusCondominios.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

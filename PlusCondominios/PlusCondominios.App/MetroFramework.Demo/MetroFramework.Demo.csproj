@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MetroFramework.Demo</RootNamespace>
     <AssemblyName>MetroFramework.Demo</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -53,24 +53,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AcessoProfissional">
-      <HintPath>..\..\App.Dlls\AcessoProfissional.dll</HintPath>
-    </Reference>
-    <Reference Include="AcessoVisitante">
-      <HintPath>..\..\App.Dlls\AcessoVisitante.dll</HintPath>
-    </Reference>
-    <Reference Include="Agendamento">
-      <HintPath>..\..\App.Dlls\Agendamento.dll</HintPath>
-    </Reference>
-    <Reference Include="Empresa">
-      <HintPath>..\..\App.Dlls\Empresa.dll</HintPath>
-    </Reference>
-    <Reference Include="Entrega">
-      <HintPath>..\..\App.Dlls\Entrega.dll</HintPath>
-    </Reference>
-    <Reference Include="Item">
-      <HintPath>..\..\App.Dlls\Item.dll</HintPath>
-    </Reference>
     <Reference Include="MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\App.Dlls\MetroFramework.dll</HintPath>
@@ -81,12 +63,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\App.Dlls\Nucleo.dll</HintPath>
     </Reference>
-    <Reference Include="Perfil">
-      <HintPath>..\..\App.Dlls\Perfil.dll</HintPath>
-    </Reference>
-    <Reference Include="PermissaoUsuarioItem">
-      <HintPath>..\..\App.Dlls\PermissaoUsuarioItem.dll</HintPath>
-    </Reference>
     <Reference Include="Profissional, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\App.Dlls\Profissional.dll</HintPath>
@@ -94,36 +70,12 @@
     <Reference Include="Proprietario">
       <HintPath>..\..\App.Dlls\Proprietario.dll</HintPath>
     </Reference>
-    <Reference Include="ProprietarioResidencia">
-      <HintPath>..\..\App.Dlls\ProprietarioResidencia.dll</HintPath>
-    </Reference>
-    <Reference Include="ProprietarioTelefone">
-      <HintPath>..\..\App.Dlls\ProprietarioTelefone.dll</HintPath>
-    </Reference>
-    <Reference Include="ProprietarioVeiculo">
-      <HintPath>..\..\App.Dlls\ProprietarioVeiculo.dll</HintPath>
-    </Reference>
-    <Reference Include="Residencia">
-      <HintPath>..\..\App.Dlls\Residencia.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TipoAgendamento">
-      <HintPath>..\..\App.Dlls\TipoAgendamento.dll</HintPath>
-    </Reference>
-    <Reference Include="TipoEntrega">
-      <HintPath>..\..\App.Dlls\TipoEntrega.dll</HintPath>
-    </Reference>
-    <Reference Include="Usuario">
-      <HintPath>..\..\App.Dlls\Usuario.dll</HintPath>
-    </Reference>
-    <Reference Include="Visitante">
-      <HintPath>..\..\App.Dlls\Visitante.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FrmApartamentos.cs">

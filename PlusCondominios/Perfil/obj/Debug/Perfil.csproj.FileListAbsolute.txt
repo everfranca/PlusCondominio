@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\Perfil.dll
 C:\PlusCondominios\App.Dlls\Perfil.pdb
 C:\PlusCondominios\Perfil\obj\Debug\Perfil.dll
 C:\PlusCondominios\Perfil\obj\Debug\Perfil.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Perfil.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Perfil.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Perfil\obj\Debug\Perfil.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Perfil\obj\Debug\Perfil.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Perfil\obj\Debug\Perfil.pdb

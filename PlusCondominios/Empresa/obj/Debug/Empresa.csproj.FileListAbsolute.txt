@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\Empresa.dll
 C:\PlusCondominios\App.Dlls\Empresa.pdb
 C:\PlusCondominios\Empresa\obj\Debug\Empresa.dll
 C:\PlusCondominios\Empresa\obj\Debug\Empresa.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Empresa.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Empresa.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Empresa\obj\Debug\Empresa.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Empresa\obj\Debug\Empresa.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Empresa\obj\Debug\Empresa.pdb

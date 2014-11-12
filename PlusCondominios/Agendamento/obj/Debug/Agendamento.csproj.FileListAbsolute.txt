@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\Agendamento.pdb
 C:\PlusCondominios\Agendamento\obj\Debug\Agendamento.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\Agendamento\obj\Debug\Agendamento.dll
 C:\PlusCondominios\Agendamento\obj\Debug\Agendamento.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Agendamento.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Agendamento.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Agendamento\obj\Debug\Agendamento.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Agendamento\obj\Debug\Agendamento.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Agendamento\obj\Debug\Agendamento.pdb

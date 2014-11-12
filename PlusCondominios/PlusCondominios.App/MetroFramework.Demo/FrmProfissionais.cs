@@ -106,7 +106,7 @@ namespace MetroFramework.Demo
 
         private void txtCpf_Leave(object sender, EventArgs e)
         {
-            Nucleo.Validations info = new Validations();
+            Nucleo.Validations info = new Nucleo.Validations();
 
             try
             {

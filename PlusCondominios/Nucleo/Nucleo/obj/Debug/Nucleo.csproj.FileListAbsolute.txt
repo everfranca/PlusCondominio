@@ -16,3 +16,12 @@ C:\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.pdb
 C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.dll
 C:\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.dll.config
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo.Dlls\Nucleo.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\Nucleo\obj\Debug\Nucleo.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Nucleo.dll.config
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Nucleo.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Nucleo.pdb

@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\ProprietarioTelefone.pdb
 C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.dll
 C:\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\ProprietarioTelefone.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\ProprietarioTelefone.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\ProprietarioTelefone\obj\Debug\ProprietarioTelefone.pdb

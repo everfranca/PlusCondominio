@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\AcessoProfissional.pdb
 C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.dll
 C:\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\AcessoProfissional.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\AcessoProfissional.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\AcessoProfissional\obj\Debug\AcessoProfissional.pdb

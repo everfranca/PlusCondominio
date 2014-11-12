@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\PermissaoUsuarioItem.pdb
 C:\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.dll
 C:\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\PermissaoUsuarioItem.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\PermissaoUsuarioItem.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PermissaoUsuarioItem\obj\Debug\PermissaoUsuarioItem.pdb

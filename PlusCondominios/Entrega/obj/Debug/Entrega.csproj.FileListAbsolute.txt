@@ -3,3 +3,8 @@ C:\PlusCondominios\App.Dlls\Entrega.pdb
 C:\PlusCondominios\Entrega\obj\Debug\Entrega.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\Entrega\obj\Debug\Entrega.dll
 C:\PlusCondominios\Entrega\obj\Debug\Entrega.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Entrega.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\Entrega.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Entrega\obj\Debug\Entrega.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Entrega\obj\Debug\Entrega.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Entrega\obj\Debug\Entrega.pdb

@@ -3,3 +3,7 @@ C:\PlusCondominios\App.Dlls\AcessoVisitante.pdb
 C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.csprojResolveAssemblyReference.cache
 C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.dll
 C:\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\AcessoVisitante.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\App.Dlls\AcessoVisitante.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\AcessoVisitante\obj\Debug\AcessoVisitante.pdb

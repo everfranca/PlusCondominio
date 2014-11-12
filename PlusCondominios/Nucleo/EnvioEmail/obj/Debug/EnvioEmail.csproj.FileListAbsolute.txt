@@ -3,3 +3,8 @@
 \\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.csprojResolveAssemblyReference.cache
 \\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.dll
 \\raovmserv44\Compartilhamento\Projeto Gerenciador5.0\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\EnvioEmail\bin\Debug\EnvioEmail.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\EnvioEmail\bin\Debug\EnvioEmail.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.dll
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\Nucleo\EnvioEmail\obj\Debug\EnvioEmail.pdb
