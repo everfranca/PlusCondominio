@@ -15,5 +15,6 @@ namespace PlusCondominios.Bll
 		bool Excluir(int prf_codigo);
 		List<PerfilInfo> ListarTodos();
 		PerfilInfo ListarPorCodigo(int prf_codigo);
+        List<PerfilInfo> ListarPerfilPorNome(string prf_nome);
 	}
 }

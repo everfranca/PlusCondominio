@@ -10,6 +10,7 @@ namespace PlusCondominios.Dal
 		bool Excluir(int prf_codigo);
 
 		List<PerfilInfo> ListarTodos();
+        List<PerfilInfo> ListarPerfilPorNome(string prf_nome);
 
 		PerfilInfo ListarPorCodigo(int prf_codigo);
 	}

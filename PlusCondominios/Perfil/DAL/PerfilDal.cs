@@ -14,6 +14,7 @@ namespace PlusCondominios.Dal
 		private const string spInserir = "Perfil_Inserir";
 		private const string spEditar = "Perfil_Editar";
 		private const string spExcluir = "Perfil_Excluir";
+        private const string spListarPerfilPorNome = "Perfil_ListarPorNome";
 
 		private const string paramPRF_Codigo = "@PRF_Codigo";
 		private const string paramPRF_Nome = "@PRF_Nome";
@@ -141,6 +142,39 @@ namespace PlusCondominios.Dal
 			}
 			return lst;
 		}
+
+        public List<PerfilInfo> ListarPerfilPorNome(string prf_nome)
+        {
+            List<SqlParameter> lParam = new List<SqlParameter>();
+            List<PerfilInfo> lst = new List<PerfilInfo>();
+            StoredProcedure sp = null;
+            SqlDataReader dr = null;
+
+            try
+            {
+                lParam.Add(new SqlParameter(paramPRF_Nome, prf_nome));
+                using (sp = new StoredProcedure(spListarPerfilPorNome, lParam, ConexoesBanco.PlusCondominios))
+                {
+                    dr = sp.GetDataReader();
+
+                    while (dr.Read())
+                    {
+                        NovaInstanciaClasse instancia = new NovaInstanciaClasse();
+                        lst.Add(instancia.NovaInstancia<PerfilInfo>(dr));
+                        instancia = null;
+                    }
+                }
+            }
+            catch (Exception exc)
+            {
+                throw new Exception(exc.Message, exc);
+            }
+            finally
+            {
+                lParam = null;
+            }
+            return lst;
+        }
 
 		public PerfilInfo ListarPorCodigo(int prf_codigo)
 		{

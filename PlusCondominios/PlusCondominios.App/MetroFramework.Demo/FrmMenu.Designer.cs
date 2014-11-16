@@ -30,7 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.metroPanel5 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.metroStyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
             this.metroContextMenu1 = new MetroFramework.Controls.MetroContextMenu(this.components);
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,8 +44,10 @@
             this.metroStyleExtender = new MetroFramework.Components.MetroStyleExtender(this.components);
             this.metroToolTip = new MetroFramework.Components.MetroToolTip();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.metroPanel4 = new MetroFramework.Controls.MetroPanel();
+            this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
+            this.lblHorario = new MetroFramework.Controls.MetroLabel();
+            this.lblData = new MetroFramework.Controls.MetroLabel();
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.menuAgendamento = new MetroFramework.Controls.MetroTile();
             this.menuApartamento = new MetroFramework.Controls.MetroTile();
@@ -53,17 +57,13 @@
             this.menuProfissionais = new MetroFramework.Controls.MetroTile();
             this.menuVisitantes = new MetroFramework.Controls.MetroTile();
             this.menuMoradores = new MetroFramework.Controls.MetroTile();
-            this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
-            this.lblHorario = new MetroFramework.Controls.MetroLabel();
-            this.lblData = new MetroFramework.Controls.MetroLabel();
-            this.metroPanel5 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel1.SuspendLayout();
+            this.metroPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
             this.metroContextMenu1.SuspendLayout();
             this.metroPanel4.SuspendLayout();
-            this.metroPanel2.SuspendLayout();
             this.metroPanel3.SuspendLayout();
-            this.metroPanel5.SuspendLayout();
+            this.metroPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroPanel1
@@ -81,6 +81,22 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
+            // metroPanel5
+            // 
+            this.metroPanel5.Controls.Add(this.metroLabel1);
+            this.metroPanel5.Controls.Add(this.metroButton5);
+            this.metroPanel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.metroPanel5.HorizontalScrollbarBarColor = true;
+            this.metroPanel5.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel5.HorizontalScrollbarSize = 10;
+            this.metroPanel5.Location = new System.Drawing.Point(538, 0);
+            this.metroPanel5.Name = "metroPanel5";
+            this.metroPanel5.Size = new System.Drawing.Size(430, 47);
+            this.metroPanel5.TabIndex = 19;
+            this.metroPanel5.VerticalScrollbarBarColor = true;
+            this.metroPanel5.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel5.VerticalScrollbarSize = 10;
+            // 
             // metroLabel1
             // 
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
@@ -93,6 +109,18 @@
             this.metroLabel1.Text = "Administrador";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroLabel1.UseStyleColors = true;
+            // 
+            // metroButton5
+            // 
+            this.metroButton5.BackgroundImage = global::MetroFramework.Demo.Properties.Resources.usuario;
+            this.metroButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.metroButton5.Location = new System.Drawing.Point(384, 3);
+            this.metroButton5.Name = "metroButton5";
+            this.metroButton5.Size = new System.Drawing.Size(43, 42);
+            this.metroButton5.TabIndex = 18;
+            this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroButton5.UseSelectable = true;
+            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
             // 
             // metroStyleManager
             // 
@@ -161,18 +189,6 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // metroButton5
-            // 
-            this.metroButton5.BackgroundImage = global::MetroFramework.Demo.Properties.Resources.usuario;
-            this.metroButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.metroButton5.Location = new System.Drawing.Point(384, 3);
-            this.metroButton5.Name = "metroButton5";
-            this.metroButton5.Size = new System.Drawing.Size(43, 42);
-            this.metroButton5.TabIndex = 18;
-            this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroButton5.UseSelectable = true;
-            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
-            // 
             // metroPanel4
             // 
             this.metroPanel4.Controls.Add(this.metroPanel3);
@@ -187,6 +203,48 @@
             this.metroPanel4.VerticalScrollbarBarColor = true;
             this.metroPanel4.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel4.VerticalScrollbarSize = 10;
+            // 
+            // metroPanel3
+            // 
+            this.metroPanel3.Controls.Add(this.lblHorario);
+            this.metroPanel3.Controls.Add(this.lblData);
+            this.metroPanel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.metroPanel3.HorizontalScrollbarBarColor = true;
+            this.metroPanel3.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.HorizontalScrollbarSize = 10;
+            this.metroPanel3.Location = new System.Drawing.Point(581, 0);
+            this.metroPanel3.Name = "metroPanel3";
+            this.metroPanel3.Size = new System.Drawing.Size(387, 40);
+            this.metroPanel3.TabIndex = 3;
+            this.metroPanel3.VerticalScrollbarBarColor = true;
+            this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel3.VerticalScrollbarSize = 10;
+            // 
+            // lblHorario
+            // 
+            this.lblHorario.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblHorario.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lblHorario.Location = new System.Drawing.Point(299, 10);
+            this.lblHorario.Margin = new System.Windows.Forms.Padding(3);
+            this.lblHorario.Name = "lblHorario";
+            this.lblHorario.Size = new System.Drawing.Size(85, 25);
+            this.lblHorario.TabIndex = 10;
+            this.lblHorario.Text = "#horario";
+            this.lblHorario.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lblHorario.UseStyleColors = true;
+            // 
+            // lblData
+            // 
+            this.lblData.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblData.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lblData.Location = new System.Drawing.Point(3, 10);
+            this.lblData.Margin = new System.Windows.Forms.Padding(3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(290, 25);
+            this.lblData.TabIndex = 9;
+            this.lblData.Text = "#data";
+            this.lblData.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lblData.UseStyleColors = true;
             // 
             // metroPanel2
             // 
@@ -255,6 +313,7 @@
             this.menuUsuarios.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.menuUsuarios.UseSelectable = true;
             this.menuUsuarios.UseTileImage = true;
+            this.menuUsuarios.Click += new System.EventHandler(this.menuUsuarios_Click);
             // 
             // menuRelatorios
             // 
@@ -333,64 +392,6 @@
             this.menuMoradores.UseTileImage = true;
             this.menuMoradores.Click += new System.EventHandler(this.menuMoradores_Click);
             // 
-            // metroPanel3
-            // 
-            this.metroPanel3.Controls.Add(this.lblHorario);
-            this.metroPanel3.Controls.Add(this.lblData);
-            this.metroPanel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.metroPanel3.HorizontalScrollbarBarColor = true;
-            this.metroPanel3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel3.HorizontalScrollbarSize = 10;
-            this.metroPanel3.Location = new System.Drawing.Point(581, 0);
-            this.metroPanel3.Name = "metroPanel3";
-            this.metroPanel3.Size = new System.Drawing.Size(387, 40);
-            this.metroPanel3.TabIndex = 3;
-            this.metroPanel3.VerticalScrollbarBarColor = true;
-            this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel3.VerticalScrollbarSize = 10;
-            // 
-            // lblHorario
-            // 
-            this.lblHorario.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.lblHorario.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.lblHorario.Location = new System.Drawing.Point(299, 10);
-            this.lblHorario.Margin = new System.Windows.Forms.Padding(3);
-            this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(85, 25);
-            this.lblHorario.TabIndex = 10;
-            this.lblHorario.Text = "#horario";
-            this.lblHorario.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.lblHorario.UseStyleColors = true;
-            // 
-            // lblData
-            // 
-            this.lblData.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.lblData.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.lblData.Location = new System.Drawing.Point(3, 10);
-            this.lblData.Margin = new System.Windows.Forms.Padding(3);
-            this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(290, 25);
-            this.lblData.TabIndex = 9;
-            this.lblData.Text = "#data";
-            this.lblData.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.lblData.UseStyleColors = true;
-            // 
-            // metroPanel5
-            // 
-            this.metroPanel5.Controls.Add(this.metroLabel1);
-            this.metroPanel5.Controls.Add(this.metroButton5);
-            this.metroPanel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.metroPanel5.HorizontalScrollbarBarColor = true;
-            this.metroPanel5.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel5.HorizontalScrollbarSize = 10;
-            this.metroPanel5.Location = new System.Drawing.Point(538, 0);
-            this.metroPanel5.Name = "metroPanel5";
-            this.metroPanel5.Size = new System.Drawing.Size(430, 47);
-            this.metroPanel5.TabIndex = 19;
-            this.metroPanel5.VerticalScrollbarBarColor = true;
-            this.metroPanel5.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel5.VerticalScrollbarSize = 10;
-            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -404,12 +405,12 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.metroPanel1.ResumeLayout(false);
+            this.metroPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).EndInit();
             this.metroContextMenu1.ResumeLayout(false);
             this.metroPanel4.ResumeLayout(false);
-            this.metroPanel2.ResumeLayout(false);
             this.metroPanel3.ResumeLayout(false);
-            this.metroPanel5.ResumeLayout(false);
+            this.metroPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

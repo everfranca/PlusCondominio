@@ -101,6 +101,22 @@ namespace PlusCondominios.Bll
 				acessor = null;
 			}
 		}
+        public List<PerfilInfo> ListarPerfilPorNome(string prf_nome)
+        {
+            Acessor acessor = new Acessor();
+            try
+            {
+                return acessor.PerfilDal.ListarPerfilPorNome(prf_nome);
+            }
+            catch (Exception exc)
+            {
+                throw new Exception(exc.Message, exc);
+            }
+            finally
+            {
+                acessor = null;
+            }
+        }
 
 		public PerfilInfo ListarPorCodigo(int prf_codigo)
 		{
@@ -119,5 +135,6 @@ namespace PlusCondominios.Bll
 				acessor = null;
 			}
 		}
+
 	}
 }

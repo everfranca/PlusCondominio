@@ -14,6 +14,7 @@ namespace PlusCondominios.Dal
 		private const string spInserir = "Usuario_Inserir";
 		private const string spEditar = "Usuario_Editar";
 		private const string spExcluir = "Usuario_Excluir";
+        private const string spListarLogin = "Usuario_ListaLogin";
 
 		private const string paramUSU_Codigo = "@USU_Codigo";
 		private const string paramUSU_Login = "@USU_Login";
@@ -184,5 +185,35 @@ namespace PlusCondominios.Dal
 				lParam = null;
 			}
 		}
+        public UsuarioInfo ListarUsuario(string usu_login)
+        {
+            List<SqlParameter> lParam = new List<SqlParameter>();
+            List<UsuarioInfo> lstUsuario = new List<UsuarioInfo>();
+            StoredProcedure sp = null;
+            SqlDataReader dr = null;
+
+            try
+            {
+                lParam.Add(new SqlParameter(paramUSU_Login, usu_login));
+
+                using (sp = new StoredProcedure(spListarLogin, lParam, ConexoesBanco.PlusCondominios))
+                {
+                    dr = sp.GetDataReader();
+                    NovaInstanciaClasse instancia = new NovaInstanciaClasse();
+
+                    if (dr.Read())
+                        return instancia.NovaInstancia<UsuarioInfo>(dr);
+                    return null;
+                }
+            }
+            catch (Exception exc)
+            {
+                throw new Exception(exc.Message, exc);
+            }
+            finally
+            {
+                lParam = null;
+            }
+        }
 	}
 }

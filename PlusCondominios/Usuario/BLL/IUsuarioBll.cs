@@ -15,5 +15,6 @@ namespace PlusCondominios.Bll
 		bool Excluir(int usu_codigo);
 		List<UsuarioInfo> ListarTodos();
 		UsuarioInfo ListarPorCodigo(int usu_codigo);
+        UsuarioInfo ListarUsuario(string usu_login);
 	}
 }
