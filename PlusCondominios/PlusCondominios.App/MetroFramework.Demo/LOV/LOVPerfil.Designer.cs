@@ -95,6 +95,7 @@
             this.GridPerfis.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.GridPerfis.Size = new System.Drawing.Size(552, 143);
             this.GridPerfis.TabIndex = 21;
+            this.GridPerfis.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.GridPerfis_CellMouseClick);
             // 
             // LOVPerfil
             // 

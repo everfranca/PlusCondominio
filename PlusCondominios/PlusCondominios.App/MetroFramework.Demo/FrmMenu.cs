@@ -1,4 +1,6 @@
 ﻿using MetroFramework.Forms;
+using PlusCondominios.Bll;
+using PlusCondominios.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,10 +16,20 @@ namespace MetroFramework.Demo
     {
         public FrmMenu()
         {
+            
+        }
+
+        public FrmMenu(UsuarioInfo usuarioInfo)
+        {
             InitializeComponent();
 
             metroStyleManager.Owner = this;
             metroStyleManager.Theme = MetroThemeStyle.Light;
+
+            if (usuarioInfo != null)
+            {
+                lblUsuario.Text = usuarioInfo.USU_Login;
+            }
         }
 
         private void FrmMenu_Load(object sender, EventArgs e)
@@ -25,6 +37,7 @@ namespace MetroFramework.Demo
             menuProfissionais.BackColor = Color.FromName("#009200");
 
             timer1.Start();
+
         }
 
 

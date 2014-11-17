@@ -16,5 +16,6 @@ namespace PlusCondominios.Bll
 		List<UsuarioInfo> ListarTodos();
 		UsuarioInfo ListarPorCodigo(int usu_codigo);
         UsuarioInfo ListarUsuario(string usu_login);
+        UsuarioInfo AutenticaUsuario(string usu_login, string usu_senha);
 	}
 }

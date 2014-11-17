@@ -1,4 +1,6 @@
 ﻿using MetroFramework.Forms;
+using PlusCondominios.Bll;
+using PlusCondominios.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,15 +23,20 @@ namespace MetroFramework.Demo
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text.ToUpper().Equals("ADMIN") && txtSenha.Text.ToUpper().Equals("ADMIN"))
+            UsuarioBll usuarioBll = new UsuarioBll();
+            UsuarioInfo usuarioInfo = new UsuarioInfo();
+
+            usuarioInfo = usuarioBll.AutenticaUsuario(txtUsuario.Text, txtSenha.Text);
+
+            if (usuarioInfo != null)
             {
                 this.Visible = false;
-                FrmMenu frmMenu = new FrmMenu();
+                FrmMenu frmMenu = new FrmMenu(usuarioInfo);
                 frmMenu.ShowDialog();
             }
             else
             {
-                MetroMessageBox.Show(this, "Usuário ou Senha Inválido.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MetroMessageBox.Show(this, "Usuário ou Senha Inválido.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 //MessageBox.Show("Usuário ou Senha Inválido.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtUsuario.Focus();
             }

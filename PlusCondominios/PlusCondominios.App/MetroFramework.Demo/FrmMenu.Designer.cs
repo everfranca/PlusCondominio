@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel5 = new MetroFramework.Controls.MetroPanel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.lblUsuario = new MetroFramework.Controls.MetroLabel();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.metroStyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
             this.metroContextMenu1 = new MetroFramework.Controls.MetroContextMenu(this.components);
@@ -83,7 +83,7 @@
             // 
             // metroPanel5
             // 
-            this.metroPanel5.Controls.Add(this.metroLabel1);
+            this.metroPanel5.Controls.Add(this.lblUsuario);
             this.metroPanel5.Controls.Add(this.metroButton5);
             this.metroPanel5.Dock = System.Windows.Forms.DockStyle.Right;
             this.metroPanel5.HorizontalScrollbarBarColor = true;
@@ -97,18 +97,17 @@
             this.metroPanel5.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel5.VerticalScrollbarSize = 10;
             // 
-            // metroLabel1
+            // lblUsuario
             // 
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(249, 16);
-            this.metroLabel1.Margin = new System.Windows.Forms.Padding(3);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(129, 25);
-            this.metroLabel1.TabIndex = 11;
-            this.metroLabel1.Text = "Administrador";
-            this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel1.UseStyleColors = true;
+            this.lblUsuario.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblUsuario.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.lblUsuario.Location = new System.Drawing.Point(249, 16);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(3);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(129, 25);
+            this.lblUsuario.TabIndex = 11;
+            this.lblUsuario.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lblUsuario.UseStyleColors = true;
             // 
             // metroButton5
             // 
@@ -424,7 +423,7 @@
         private Components.MetroStyleExtender metroStyleExtender;
         private Components.MetroToolTip metroToolTip;
         private System.Windows.Forms.Timer timer1;
-        private Controls.MetroLabel metroLabel1;
+        private Controls.MetroLabel lblUsuario;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maintenanceToolStripMenuItem;

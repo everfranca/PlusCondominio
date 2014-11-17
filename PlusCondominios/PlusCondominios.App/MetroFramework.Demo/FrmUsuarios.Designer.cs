@@ -39,6 +39,11 @@
             this.txtEmail = new MetroFramework.Controls.MetroTextBox();
             this.btnCancelar = new MetroFramework.Controls.MetroButton();
             this.btnSalva = new MetroFramework.Controls.MetroButton();
+            this.GridUsuarios = new System.Windows.Forms.DataGridView();
+            this.lblCodPerfil = new MetroFramework.Controls.MetroLabel();
+            this.lblCodUsuario = new MetroFramework.Controls.MetroLabel();
+            this.lblCodEmpresa = new MetroFramework.Controls.MetroLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.GridUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // metroLabel2
@@ -49,7 +54,7 @@
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(94, 25);
             this.metroLabel2.TabIndex = 18;
-            this.metroLabel2.Text = "Usuáro";
+            this.metroLabel2.Text = "Usuário";
             // 
             // txtUsuario
             // 
@@ -85,7 +90,7 @@
             this.txtSenha.Location = new System.Drawing.Point(235, 107);
             this.txtSenha.MaxLength = 32767;
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.PasswordChar = '\0';
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(206, 35);
@@ -113,15 +118,15 @@
             this.txtPerfil.PasswordChar = '\0';
             this.txtPerfil.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtPerfil.SelectedText = "";
-            this.txtPerfil.Size = new System.Drawing.Size(375, 35);
+            this.txtPerfil.Size = new System.Drawing.Size(354, 35);
             this.txtPerfil.TabIndex = 23;
             this.txtPerfil.UseSelectable = true;
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(402, 178);
+            this.metroButton1.Location = new System.Drawing.Point(383, 178);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(39, 23);
+            this.metroButton1.Size = new System.Drawing.Size(58, 23);
             this.metroButton1.TabIndex = 24;
             this.metroButton1.Text = "Buscar";
             this.metroButton1.UseSelectable = true;
@@ -158,7 +163,7 @@
             this.btnCancelar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnCancelar.FontWeight = MetroFramework.MetroButtonWeight.Light;
             this.btnCancelar.Highlight = true;
-            this.btnCancelar.Location = new System.Drawing.Point(665, 305);
+            this.btnCancelar.Location = new System.Drawing.Point(656, 242);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(192, 35);
             this.btnCancelar.TabIndex = 28;
@@ -171,7 +176,7 @@
             this.btnSalva.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnSalva.FontWeight = MetroFramework.MetroButtonWeight.Light;
             this.btnSalva.Highlight = true;
-            this.btnSalva.Location = new System.Drawing.Point(467, 305);
+            this.btnSalva.Location = new System.Drawing.Point(458, 242);
             this.btnSalva.Name = "btnSalva";
             this.btnSalva.Size = new System.Drawing.Size(192, 35);
             this.btnSalva.TabIndex = 27;
@@ -179,11 +184,59 @@
             this.btnSalva.UseSelectable = true;
             this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
             // 
+            // GridUsuarios
+            // 
+            this.GridUsuarios.AllowUserToAddRows = false;
+            this.GridUsuarios.AllowUserToDeleteRows = false;
+            this.GridUsuarios.AllowUserToResizeColumns = false;
+            this.GridUsuarios.AllowUserToResizeRows = false;
+            this.GridUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridUsuarios.Location = new System.Drawing.Point(23, 283);
+            this.GridUsuarios.Name = "GridUsuarios";
+            this.GridUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.GridUsuarios.Size = new System.Drawing.Size(824, 214);
+            this.GridUsuarios.TabIndex = 29;
+            this.GridUsuarios.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.GridUsuarios_CellMouseClick);
+            // 
+            // lblCodPerfil
+            // 
+            this.lblCodPerfil.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblCodPerfil.Location = new System.Drawing.Point(88, 148);
+            this.lblCodPerfil.Margin = new System.Windows.Forms.Padding(3);
+            this.lblCodPerfil.Name = "lblCodPerfil";
+            this.lblCodPerfil.Size = new System.Drawing.Size(40, 25);
+            this.lblCodPerfil.TabIndex = 30;
+            this.lblCodPerfil.Visible = false;
+            // 
+            // lblCodUsuario
+            // 
+            this.lblCodUsuario.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblCodUsuario.Location = new System.Drawing.Point(157, 148);
+            this.lblCodUsuario.Margin = new System.Windows.Forms.Padding(3);
+            this.lblCodUsuario.Name = "lblCodUsuario";
+            this.lblCodUsuario.Size = new System.Drawing.Size(40, 25);
+            this.lblCodUsuario.TabIndex = 31;
+            this.lblCodUsuario.Visible = false;
+            // 
+            // lblCodEmpresa
+            // 
+            this.lblCodEmpresa.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lblCodEmpresa.Location = new System.Drawing.Point(235, 148);
+            this.lblCodEmpresa.Margin = new System.Windows.Forms.Padding(3);
+            this.lblCodEmpresa.Name = "lblCodEmpresa";
+            this.lblCodEmpresa.Size = new System.Drawing.Size(40, 25);
+            this.lblCodEmpresa.TabIndex = 32;
+            this.lblCodEmpresa.Visible = false;
+            // 
             // FrmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 363);
+            this.ClientSize = new System.Drawing.Size(870, 520);
+            this.Controls.Add(this.lblCodEmpresa);
+            this.Controls.Add(this.lblCodUsuario);
+            this.Controls.Add(this.lblCodPerfil);
+            this.Controls.Add(this.GridUsuarios);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalva);
             this.Controls.Add(this.metroLabel4);
@@ -196,7 +249,9 @@
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.txtUsuario);
             this.Name = "FrmUsuarios";
-            this.Text = "FrmUsuarios";
+            this.Text = "Usuários";
+            this.Load += new System.EventHandler(this.FrmUsuarios_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.GridUsuarios)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -214,5 +269,9 @@
         private Controls.MetroTextBox txtEmail;
         private Controls.MetroButton btnCancelar;
         private Controls.MetroButton btnSalva;
+        private System.Windows.Forms.DataGridView GridUsuarios;
+        private Controls.MetroLabel lblCodPerfil;
+        private Controls.MetroLabel lblCodUsuario;
+        private Controls.MetroLabel lblCodEmpresa;
     }
 }

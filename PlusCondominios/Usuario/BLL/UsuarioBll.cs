@@ -134,5 +134,22 @@ namespace PlusCondominios.Bll
                 acessor = null;
             }
         }
+        public UsuarioInfo AutenticaUsuario(string usu_login, string usu_senha)
+        {
+            Acessor acessor = new Acessor();
+            UsuarioInfo usuarioInfo = new UsuarioInfo();
+            try
+            {
+                return usuarioInfo = acessor.UsuarioDal.AutenticaUsuario(usu_login, usu_senha);
+            }
+            catch (Exception exc)
+            {
+                throw new Exception(exc.Message, exc);
+            }
+            finally
+            {
+                acessor = null;
+            }
+        }
 	}
 }

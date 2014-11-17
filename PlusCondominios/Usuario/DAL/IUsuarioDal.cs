@@ -13,5 +13,6 @@ namespace PlusCondominios.Dal
 
 		UsuarioInfo ListarPorCodigo(int usu_codigo);
         UsuarioInfo ListarUsuario(string usu_login);
+        UsuarioInfo AutenticaUsuario(string usu_login, string usu_senha);
 	}
 }

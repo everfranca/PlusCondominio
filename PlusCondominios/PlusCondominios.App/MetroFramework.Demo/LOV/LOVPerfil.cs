@@ -37,5 +37,11 @@ namespace MetroFramework.Demo.LOV
             GridPerfis.DataSource = lst;
 
         }
+
+        private void GridPerfis_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            Tag = GridPerfis.SelectedRows[0].Cells[0].Value.ToString();
+            this.Close();
+        }
     }
 }
