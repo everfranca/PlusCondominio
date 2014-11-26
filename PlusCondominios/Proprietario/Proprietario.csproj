@@ -34,6 +34,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\App.Dlls\Nucleo.dll</HintPath>
     </Reference>
+    <Reference Include="Proprietario, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\App.Dlls\Proprietario.dll</HintPath>
+    </Reference>
+    <Reference Include="ProprietarioTelefone, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\App.Dlls\ProprietarioTelefone.dll</HintPath>
+    </Reference>
+    <Reference Include="ProprietarioVeiculo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\App.Dlls\ProprietarioVeiculo.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />

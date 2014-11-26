@@ -35,6 +35,10 @@ namespace MetroFramework.Demo
                 proprietarioGridBindingSource.DataSource = lstProprietarios;
                 proprietarioGridBindingSource.EndEdit();
                 proprietarioGridBindingSource.ResetBindings(false);
+
+                lblCodigoProprietario.Text = "";
+                lblCodigoTelefone.Text = "";
+                lblCodigoVeiculo.Text = "";
             }
         }
 
@@ -61,9 +65,19 @@ namespace MetroFramework.Demo
                 info.PRT_Nome = current.PRT_Nome;
                 info.PRT_Rg = current.PRT_Rg;
                 info.PRT_Sindico = current.PRT_Sindico;
+                info.PVE_Placa = current.PVE_Placa;
+                info.PVE_Veiculo = current.PVE_Veiculo;
+                info.PTE_Telefone = current.PTE_Telefone;
+                info.PTE_Codigo = !string.IsNullOrEmpty(lblCodigoTelefone.Text) ? int.Parse(lblCodigoTelefone.Text) : 0;
+                info.PVE_Codigo = !string.IsNullOrEmpty(lblCodigoVeiculo.Text) ? int.Parse(lblCodigoVeiculo.Text) : 0;
 
                 if (proprietarioBll.Salvar(info))
+                {
                     MetroMessageBox.Show(this, "Registro salvo com sucesso.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    proprietarioBindingSource.RemoveCurrent();
+                    proprietarioBindingSource.EndEdit();
+                    proprietarioBindingSource.ResetBindings(false);
+                }
                 else
                     MetroMessageBox.Show(this, "Erro ao salvar registro. Contate o Administrador do Sistema.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -71,6 +85,8 @@ namespace MetroFramework.Demo
 
         private void metroTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (metroTabControl1.SelectedIndex == 0)
+                BuscaProprietarios();
         }
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -83,9 +99,13 @@ namespace MetroFramework.Demo
             var info = proprietarioGridBindingSource.Current as ProprietarioInfo;
             if (info != null)
             {
+                metroTabControl1.SelectedIndex = 1;
                 proprietarioBindingSource.DataSource = info;
                 proprietarioBindingSource.EndEdit();
-                proprietarioBindingSource.ResetBindings(false);
+                proprietarioBindingSource.ResetCurrentItem();
+                lblCodigoProprietario.Text = info.PRT_Codigo.ToString();
+                lblCodigoTelefone.Text = info.PTE_Codigo.ToString();
+                lblCodigoVeiculo.Text = info.PVE_Codigo.ToString();
                 txtCPF.Focus();
             }
         }
@@ -97,12 +117,25 @@ namespace MetroFramework.Demo
                 var info = proprietarioGridBindingSource.Current as PlusCondominios.Model.ProprietarioInfo;
                 if (info != null)
                 {
-                    proprietarioBindingSource.DataSource = info;
-                    proprietarioBindingSource.EndEdit();
-                    proprietarioBindingSource.ResetBindings(false);
-                    txtCPF.Focus();
+                    if (proprietarioBll.Excluir(info.PRT_Codigo))
+                    {
+                        MetroMessageBox.Show(this, "Registro excluido com sucesso.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        proprietarioGridBindingSource.RemoveCurrent();
+                        proprietarioGridBindingSource.EndEdit();
+                        proprietarioGridBindingSource.ResetBindings(false);
+                    }
+                    else
+                        MetroMessageBox.Show(this, "Erro ao excluir registro. Contate o Administrador do Sistema.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            proprietarioBindingSource.RemoveCurrent();
+            proprietarioBindingSource.EndEdit();
+            proprietarioBindingSource.ResetBindings(false);
+            metroTabControl1.SelectedIndex = 0;
         }
     }
 }

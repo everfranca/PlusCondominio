@@ -44,6 +44,6 @@ C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.
 C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
 C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
 C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
-C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
 C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
 C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb
+C:\Users\Isabel\Documents\GitHub\PlusCondominio\PlusCondominios\PlusCondominios.App\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache

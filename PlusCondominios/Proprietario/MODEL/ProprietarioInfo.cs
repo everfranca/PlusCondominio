@@ -1,5 +1,6 @@
 using Nucleo;
 using System;
+using System.Collections.Generic;
 namespace PlusCondominios.Model
 {
     public class ProprietarioInfo : BaseInfo
@@ -110,6 +111,29 @@ namespace PlusCondominios.Model
                     IsDirty = true;
                 _PRT_Aluguel = value;
             }
+        }
+
+        //---Veículo - TIRAR DAQUI DPS ISSO È KO
+        [AtributoCampo(true, "PVE_Codigo", 4, false)]
+        public int PVE_Codigo { get; set; }
+        [AtributoCampo("PVE_Placa", 10, true)]
+        public string PVE_Placa { get; set; }
+        [AtributoCampo("PVE_PRT_Codigo", 4, false)]
+        public int PVE_PRT_Codigo { get; set; }
+        [AtributoCampo("PVE_Veiculo", 50, true)]
+        public string PVE_Veiculo { get; set; }
+
+        //---Telefone - TIRAR ESSE TBM
+        [AtributoCampo(true, "PTE_Codigo", 4, false)]
+        public int PTE_Codigo { get; set; }
+        [AtributoCampo("PTE_PRT_Codigo", 4, false)]
+        public int PTE_PRT_Codigo { get; set; }
+        [AtributoCampo("PTE_Telefone", 15, true)]
+        public string PTE_Telefone { get; set; }
+
+        public string Veiculo
+        {
+            get { return PVE_Placa + "-" + PVE_Veiculo; }
         }
     }
 }

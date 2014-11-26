@@ -13,7 +13,7 @@ namespace MetroFramework.Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            Application.Run(new FrmMoradores());
             //Application.Run(new FrmProfissionais());
         }
     }

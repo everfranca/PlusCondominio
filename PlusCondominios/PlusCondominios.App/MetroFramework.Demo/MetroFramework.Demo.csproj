@@ -200,6 +200,7 @@
     <None Include="app.config" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.ProfissionalInfo.datasource" />
     <None Include="Properties\DataSources\MetroFramework.Demo.Model.VisitanteInfo.datasource" />
+    <None Include="Properties\DataSources\PlusCondominios.Model.ProprietarioInfo1.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
